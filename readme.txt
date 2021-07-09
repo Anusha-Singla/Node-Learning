@@ -26,3 +26,16 @@
   --> res = used to send response from current Server
   --> listen = to listen the port no.
 17. Handle HTTP request & Routing --> Status code, res.writeHead(status_code);
+18. JSON data -->  JSON.stringify & JSon.parse 
+19. Create API & display JSON 
+20. Events Module --> created class with the help of events, created an instance of it, on it & then emit it.
+21. Streams & Buffer --> Read, Write (data, end, error, finish)
+22. Stream Pipe --> stream.pipe()
+24. Dynamic Quotes Website
+===============================================================
+------------------------- Express JS --------------------------
+25. Initialization of Express, require module, create app, app.get(route, callback), res.send(), app.listen()
+26. Routing
+27. Send HTML/Json on response --> res.send(), res.json(), res.write();
+28. Serve Static HTML/Css/Js files to express --> app.use(express.static(staticPath));
+29. 
