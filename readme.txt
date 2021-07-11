@@ -37,5 +37,20 @@
 25. Initialization of Express, require module, create app, app.get(route, callback), res.send(), app.listen()
 26. Routing
 27. Send HTML/Json on response --> res.send(), res.json(), res.write();
-28. Serve Static HTML/Css/Js files to express --> app.use(express.static(staticPath));
-29. 
+28,29. Serve Static HTML/Css/Js files to express --> app.use(express.static(staticPath));
+30. Dynamic Content using Template Engines --> pug, ejs, hbs app.set('view engine'), app.render()
+31. Template engine --> Views folder name change to templates and to make it work.
+32. Partials in Express Js --> creating partial files and including them.
+33. Adding 404 Page dynamically
+===============================================================
+------------------------ Mongo DB -----------------------------
+40. Mongo DB --> Sql vs No Sql
+41. Mongo Db Installation
+42. Mongo --> show dbs, use db_name, db.collection_name.insertOne({}), show collections, db.db_name.find()
+43. Creating document inside the collection --> 1. insertOne({}), insertMany([ {}, {}, {} ]);
+44. Read Data --> find(), findOne(), limit(), skip()
+45. Update Data --> updateOne(), updateMany()
+46. Delete Data --> deleteMany()
+47. Installation of MongoDb GUI 
+48. CRUD using GUI without commands.
+49. Mongoose --> connection creation mongoose.connect("").promise function
