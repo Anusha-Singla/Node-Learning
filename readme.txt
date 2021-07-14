@@ -53,4 +53,10 @@
 46. Delete Data --> deleteMany()
 47. Installation of MongoDb GUI 
 48. CRUD using GUI without commands.
-49. Mongoose --> connection creation mongoose.connect("").promise function
+=======================================================================
+---------------------------- Mongoose ---------------------------------
+49. Mongoose --> connection & db creation creation mongoose.connect("").promise function
+50. Mongoose --> schema creation using mongoose.Schema(), model creation using mongoose.model("collectionName", schemaName);
+51. Create document one by one
+52. Insert multiple documents by Training.insertMany([programming, express, React]
+53. Read document usinf .find() & then .select() method.
